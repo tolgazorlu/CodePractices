@@ -9,7 +9,7 @@ def testInput(testFile):
 
 def validPassword(arr):
     count = 0
-    for i in range(len(arr) - 1):
+    for i in range(len(arr)):
         c = 0
         List = (arr[i].split("-"))
         minNumber = List[0]
